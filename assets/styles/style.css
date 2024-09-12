@@ -1,0 +1,303 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+
+.header-section {
+    max-width: 750px;
+    width: 100%;
+    margin: auto;
+    padding: 12px 14px 12px 14px;
+    background: linear-gradient(360deg, rgba(255, 188, 57, 0.1) 0%, rgba(255, 188, 57, 0.02) 100%);
+    border: 1.5px solid rgba(255, 188, 57, 0.3);
+
+    /* border-image-source: linear-gradient(180deg, rgba(255, 188, 57, 0.3) 0%, rgba(255, 188, 57, 0.15) 100%); */
+
+    border-radius: 70px;
+}
+
+.logo img {
+    max-width: 200px;
+    height: auto;
+}
+
+.menu-items ul li a {
+    color: #1F1F1FBF;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.bttn button {
+    padding: 16px 24px 16px 24px;
+    border-radius: 30px;
+    background: linear-gradient(180deg, #FFD56B 0%, #FFCB47 100%);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 5px 0px #FFFFFF40 inset;
+    font-weight: bold;
+    color: #1F1F1F;
+    font-size: 16px;
+
+
+}
+
+.bttn2 button {
+    padding: 16px 24px 16px 24px;
+    border-radius: 30px;
+    background: linear-gradient(180deg, #FFD56B 0%, #FFCB47 100%);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 5px 0px #FFFFFF40 inset;
+    font-weight: bold;
+    color: #1F1F1F;
+    font-size: 16px;
+
+
+}
+
+/* hero-section  */
+
+.hero-section {
+    /* min-height: 862px; */
+    background-image: url('../images/Group\ 1.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 80px;
+
+}
+
+.content h1 {
+    font-size: 75.38px;
+    line-height: 98.15px;
+    font-weight: 500;
+    color: #1F1F1F;
+}
+
+.content h1 span {
+    background: linear-gradient(180deg, #FFD56B 0%, #F3B20E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.desc {
+    max-width: 738px;
+    width: 100%;
+    font-size: 18px;
+    margin: auto;
+}
+
+.cardd {
+    padding: 20px;
+    background: linear-gradient(180deg, #FCFCFC 0%, #F7F7F7 100%),
+        radial-gradient(50% 100% at 50% 100%, rgba(255, 203, 71, 0.02) 0%, rgba(255, 203, 71, 0) 100%);
+    border: 1px solid #0000001A;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.cardd h3 {
+    color: #1F1F1F;
+    font-size: 23.36px;
+    font-weight: bold;
+}
+
+.cardd p {
+    color: #1F1F1F80;
+    font-size: 18px;
+
+    font-weight: 500;
+    margin: 0;
+}
+
+
+
+
+/* offer-section  */
+
+.offer-section {
+    padding: 40px 0px;
+}
+
+
+.title-2 h1 {
+    font-size: 55px;
+    line-height: 98.15px;
+    font-weight: 500;
+    color: #1F1F1F;
+}
+
+.title-2 h1 span {
+    background: linear-gradient(180deg, #FFD56B 0%, #F3B20E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.offer-card {
+    max-width: 400px;
+    width: 100%;
+}
+
+.offer-card img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.offer-card h3 {
+    color: #1F1F1F;
+    font-size: 23.36px;
+    font-weight: bold;
+}
+
+.offer-card p {
+    color: #1F1F1F80;
+    font-size: 16px;
+
+    font-weight: 500;
+    margin: 0;
+}
+
+
+
+/* faq */
+
+.arrow-down img {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.faq-section {
+    background-image: url('../images/Frame\ 107.png');
+    background-size: cover;
+}
+
+.faq {
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.faq-title {
+    color: #1F1F1F;
+    font-weight: bold;
+    font-size: 23.36px;
+}
+
+.accordion-button:focus {
+    box-shadow: none !important;
+}
+
+.accordion-item {
+    border-bottom: 1px solid rgba(0, 0, 0, .125) !important;
+    border: 0;
+    background-color: transparent;
+    /* Transparent background for accordion item */
+}
+
+.accordion-button {
+    padding: 1.5rem 1.25rem;
+    font-size: 18px;
+    font-weight: 500;
+    color: #1F1F1F;
+    background-color: transparent;
+    /* Transparent background for button */
+}
+
+.accordion-body {
+    background-color: transparent;
+    /* Transparent background for accordion body */
+    color: #1F1F1F;
+}
+
+
+.coinflips img {
+    max-width: 283.16px;
+    width: 100%;
+    height: auto;
+}
+
+
+.earning-card {
+    margin-top: 80px;
+    background: linear-gradient(360deg, rgba(255, 188, 57, 0.1) 0%, rgba(255, 188, 57, 0.02) 100%);
+    border-radius: 70px;
+    border: 1.5px solid rgba(255, 188, 57, 0.3);
+    padding: 62px 14px 62px 14px;
+}
+
+
+.gradient{
+    padding: 60px;
+    background: linear-gradient(360deg, rgba(255, 188, 57, 0.1) 0%, rgba(255, 188, 57, 0.02) 100%);
+
+}
+
+
+.footer-section{
+    padding: 120px 0px;
+}
+
+
+.footer-logo img{
+    max-width: 260px;
+    width: 100%;
+    height: auto;
+}
+
+.footer-items h1{
+    font-weight: bold;
+    font-size: 16px;
+    color: #1F1F1F;
+}
+
+.footer-items ul{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+    padding-left: 0;
+}
+.footer-items ul li a{
+    color: #1F1F1FBF;
+    text-decoration: none;
+}
+
+
+
+@media(max-width:776px) {
+
+    .menu-items,
+    .bttn {
+        display: none;
+    }
+
+    .content h1 {
+        font-size: 50px;
+        line-height: normal;
+        font-weight: 500;
+        color: #1F1F1F;
+    }
+
+    .title-2 h1 {
+        font-size: 30px;
+        line-height: normal;
+        font-weight: 500;
+        color: #1F1F1F;
+    }
+    .hero-section{
+        padding-top: 40px;
+        background-image: none;
+    }
+}
