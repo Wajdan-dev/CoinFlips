@@ -368,9 +368,14 @@ body {
     display: none;
 }
 
+.accordion-button:not(.collapsed){
+    color: #1F1F1F;
+    background: transparent;
+}
 
-
-
+.accordion-button:not(.collapsed)::after{
+    background-image: url('../images/download.svg');
+}
 
 
 @media(max-width:776px) {
