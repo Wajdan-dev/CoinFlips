@@ -46,6 +46,15 @@
                         </li>
                     </ul>
                 </div>
+
+                <div class="hidden">
+                    <button class="layout-drawer-hamburger hamburger-on-header  " id="layout-drawer-hamburger"
+                        aria-label="menu">
+                        <span class="hamburger__slice"></span>
+                        <span class="hamburger__slice"></span>
+                        <span class="hamburger__slice"></span>
+                    </button>
+                </div>
                 <div class="bttn">
                     <button>
                         Start Trading
@@ -54,6 +63,31 @@
             </div>
         </div>
     </header>
+
+    <div class="mobile-menu">
+        <ul class="d-flex gap-4 flex-column align-items-center p-0 m-0 list-unstyled">
+            <li>
+                <a href="#">
+                    Features
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Tos
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Trade
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Docs
+                </a>
+            </li>
+        </ul>
+    </div>
 
 
     <!-- hero section -->
@@ -337,6 +371,22 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+
+    <script>
+        const hamburger = document.getElementById('layout-drawer-hamburger');
+        const mobileMenu = document.querySelector('.mobile-menu');
+        const body = document.body;
+
+        hamburger.addEventListener('click', function () {
+            this.classList.toggle('active'); // Toggle hamburger active class
+            mobileMenu.classList.toggle('open'); // Toggle mobile menu open class
+
+            // Toggle body no-scroll class to prevent/allow scrolling
+            body.classList.toggle('no-scroll');
+        });
+    </script>
+
+
 </body>
 
 </html>
